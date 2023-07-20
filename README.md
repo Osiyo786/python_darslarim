@@ -1,1 +1,1 @@
-# python_darslarim Ushbu rapositoryda python darslariga oid kodlar joylashgan.
+Ushbu rapositoryda python darslariga oid kodlar joylashgan.
