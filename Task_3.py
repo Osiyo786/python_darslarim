@@ -1,5 +1,7 @@
-my_list=input("Listni kiriting:").split(" ")
-print(my_list)
-#my_list.reverse()
-#print(my_list)
-print(my_list[::-1])
+url = input("Urlni kiriting:")
+if url.find(" ") != -1:
+    print("Ushbu urldagi bo'sh probellarni %20 belgisiga o'zgartirish kerak!")
+    url = url.replace(" ", "%20")
+else:
+    print("Ushbu urlda xatolik mavjud emas!")
+print("Url:", url)

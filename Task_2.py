@@ -1,6 +1,10 @@
-first_number=int(input("1-raqam:"))    
-second_number=int(input("2-raqam:"))
-third_number=int(input("3-raqam:"))
-my_list=[first_number, second_number, third_number]
-result=sum(my_list)/len(my_list)
-print(result)
+name=input("Ismingizni kiriting:")
+age=int(input("Yoshingizni kiriting:"))
+place=input("Tug'ilgan joyingizni kiriting:")
+text="Mening ismim %s, yoshim %d da, %sda tug'ilganman." % (name, age, place)
+text2=f"Mening ismim {name}, yoshim {age} da, {place}da tug'ilganman."
+text3="Mening ismim{}, yoshim {} da, {}da tug'ilganman".format(name, age, place)
+print(text)
+print(text2)
+print(text3)
+
